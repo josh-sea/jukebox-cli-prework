@@ -58,7 +58,7 @@ end
 #   end
 # end
 
-def run(songs)
+def run(array)
    help
   user_choice = commands
    
