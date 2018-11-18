@@ -47,7 +47,7 @@ def run(array)
     if user_input == "list"
       list(array)
     elsif user_input == "help"
-      help(array)
+      help
     elsif user_input == "play"
       play(array)
     elsif user_input == "exit"
