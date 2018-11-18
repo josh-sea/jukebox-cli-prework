@@ -62,15 +62,15 @@ def run(array)
    help
   user_choice = commands
    
-    if user_choice == "list"
-      list(array)
-     elsif user_choice == "play"
-      play(array)
-     elsif user_choice == "exit"
-      exit_jukebox
-     else
-      help
-      user_choice
-    end
+  if user_choice == "list"
+    list(array)
+  elsif user_choice == "play"
+    play(array)
+  elsif user_choice == "exit"
+    exit_jukebox
+  else
+    help
+    user_choice
+  end
 end
 
