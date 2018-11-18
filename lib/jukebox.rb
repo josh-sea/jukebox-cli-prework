@@ -56,20 +56,3 @@ def run(array)
     user_input = gets.chomp 
 
 end
-
-# def run(array)
-#   help
-#   puts "Please enter a command:"
-#   user_input = gets.chomp
-#   if user_input == "list"
-#     list(array)
-#   elsif user_input == "play"
-#     play(array)
-#   elsif user_input == "exit"
-#     exit_jukebox
-#   else
-#     help
-#     user_input
-#   end
-# end
-
