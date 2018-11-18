@@ -63,9 +63,9 @@ def run(array)
   user_choice = commands
    
     if user_choice == "list"
-      list(songs)
+      list(array)
      elsif user_choice == "play"
-      play(songs)
+      play(array)
      elsif user_choice == "exit"
       exit_jukebox
      else
