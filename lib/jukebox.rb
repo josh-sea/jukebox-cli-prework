@@ -60,16 +60,16 @@ end
 
 def run(array)
   help
-  user_choice = commands
-  if user_choice == "list"
+  user_input = gets.chomp
+  if user_input == "list"
     list(array)
-  elsif user_choice == "play"
+  elsif user_input == "play"
     play(array)
-  elsif user_choice == "exit"
+  elsif user_input == "exit"
     exit_jukebox
   else
     help
-    user_choice
+    user_input
   end
 end
 
