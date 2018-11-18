@@ -59,9 +59,8 @@ end
 # end
 
 def run(array)
-   help
+  help
   user_choice = commands
-   
   if user_choice == "list"
     list(array)
   elsif user_choice == "play"
